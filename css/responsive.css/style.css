@@ -39,7 +39,21 @@
     #navbar nav a { 
       font:0.9em;
     }
-     .col-3 p {
+    .col-1 {
+  float: none;
+  width: 100%;
+}
+ 
+ .col-2 {
+  float: none;
+  width: 100%;
+ }
+ .col-3 {
+   float: none;
+  width: 100%;
+ }
+     
+    .col-3 p {
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
   column-rule: 1px dotted #ccc;
@@ -49,13 +63,13 @@
   -moz-column-count: 3;
   -webkit-column-count: 3;
   column-count: 1;
-             }
-.col-1 {
-  float: left;
-  width: 32%;
+           }
+        
+  .border-right {
+    border-right:0;
+    }
+    
+  #details div {
+    height:auto;
+    }
 }
-
-.col-2 {
-  float: left;
-  width: 66%;
- }
