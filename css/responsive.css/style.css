@@ -33,6 +33,10 @@
   -webkit-column-count: 3;
   column-count: 2;
 }
-    
-      
-}
+  }
+  
+  @media only screen and (max-width:750px) {
+    #navbar nav a { 
+      font:0.9em;
+    }
+  }
